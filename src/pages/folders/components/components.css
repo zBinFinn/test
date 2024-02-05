@@ -1,0 +1,58 @@
+.folder {
+    z-index: 5;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5vh;
+}
+
+.image {
+    z-index: 10;
+    width: 96vmin;
+    height: 54vmin;
+    position: relative;
+    box-shadow: black 1vmin 1vmin 0.5vmin;
+}
+
+.image-wrapper {
+    width: 96vmin;
+    height: 54vmin;
+    margin-top: 5vh;
+    display: flex;
+    align-items: start;
+    flex-direction: row;
+}
+
+.blurred-background-image {
+    z-index: 6;
+    position: relative;
+    width: 96vmin;
+    right: 96vmin;
+
+    height: 54vmin;
+    filter: blur(2vmin) brightness(100%);
+}
+
+.folder-header {
+    z-index: 9;
+    font-size: 3rem;
+    position: static;
+    width: 80vw;
+    padding-left: 10vw;
+    height: 3rem;
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.folder-back-anchor {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+    font-size: 2rem;
+    text-decoration: underline;
+    color: black;
+
+}

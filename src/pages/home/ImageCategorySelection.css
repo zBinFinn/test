@@ -1,0 +1,49 @@
+.image-categories-grid {
+    width: 80vw;
+    height: auto;
+    top: 10vh;
+    position: absolute;
+    margin-left: 10vw;
+    margin-right: 10vw;
+
+    display:grid;
+    grid-template-areas:
+            "title"
+            "category"
+            "category";
+    grid-gap: 8vmin;
+    justify-items: center;
+}
+
+.image-category-wrapper {
+    width: 80vw;
+    height: 40vmin;
+    top: 30vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    display:grid;
+    grid-template-areas:
+            "x x x";
+    grid-gap: 8vmin;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    grid-area: category;
+}
+
+.image-category-title {
+    grid-area: title;
+    font-size: 3rem;
+}
+
+.image-category {
+    width: 20vmin;
+    height: 20vmin;
+    transition-duration: 500ms;
+    transition-property: all;
+    transition-timing-function: ease;
+}
+
+.image-category:hover {
+    transform: scale(1.25);
+}

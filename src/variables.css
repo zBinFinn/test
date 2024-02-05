@@ -1,0 +1,16 @@
+:root {
+    --background-color: #FFFFFF;
+    --secondary-color-lightgray: #CCCCCC;
+    --navbar-background-color: #c1f8ff;
+    --selected-text-color: #888888;
+    --text-color: #000000;
+    --scrollbar-background-color: #CCCCCC;
+    --scrollbar-thumb-color: #999999;
+    --scrollbar-thumb-hover-color: #AAAAAA;
+}
+
+@media only screen and (max-width: 600px) {
+    :root {
+        font-size: 0.5rem;
+    }
+}
